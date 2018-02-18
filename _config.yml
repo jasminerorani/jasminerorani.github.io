@@ -1,0 +1,18 @@
+---
+title: Jasmine's cafts and treats
+timezone: Australia/Sydney
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: jasmine@rorani.com
+description: Crafts and treats
+baseurl:
+url: http://jasmine.rorani.com
+twitter_username:
+github_username:
+markdown: kramdown
+ig_username:

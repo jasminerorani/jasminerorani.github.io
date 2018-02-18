@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ "/images/kiwifruit-green.png" | prepend: site.baseurl }}" alt="{{ site.title }}" class="logo"></a>
+
+    <h1 class="page-heading">{{ page.title }}</h1>
+
+    {% if page.tagline %}<h2>{{ page.tagline | escape }}</h2>{% endif %}
+
+  </div>
+
+</header>

@@ -1,0 +1,27 @@
+---
+layout: default
+author:
+  name: Blair Rorani
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <p class="post-meta">
+      by Blair Rorani
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+{{ page.author.link }}
+
+    {{ content }}
+  </div>
+
+</article>
+
+<ul class="list-the-tags">
+{% for category in page.categories %}
+    <li>#{{category}}</li>
+{% endfor %}
+</ul>
